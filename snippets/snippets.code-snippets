@@ -1,0 +1,26 @@
+{
+  "Pre with Print_r":{
+    "prefix": "!pp",
+    "body": [
+      "echo \"<pre>\";",
+      "print_r(${1:});"
+    ],
+    "description": "Pre with Print_r"
+  },
+  "Pre, Print_r with exit":{
+    "prefix": "!ppe",
+    "body": [
+      "echo \"<pre>\";",
+      "print_r(${1:});",
+      "exit;"
+    ],
+    "description": "Pre, Print_r with exit"
+  },
+  "die and dump":{
+    "prefix": "!d",
+    "body": [
+      "dd(${1:});"
+    ],
+    "description": "dd function for laravel"
+  }
+}

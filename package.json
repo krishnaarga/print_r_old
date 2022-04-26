@@ -1,0 +1,43 @@
+{
+    "name": "printr",
+    "displayName": "print_r",
+    "description": "It is providing print_r function with pre tag along with exit function.",
+    "version": "0.0.1",
+    "publisher": "Krishna Kanhaiya",
+    "license": "GPLv3",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "author": {
+		"name": "Krishna Kanhaiya"
+	},
+    "homepage":"https://github.com/krishnaarga/printr",
+    "repository": {
+        "type": "git",
+        "directory": "https://github.com/krishnaarga/printr"
+    },
+    "bugs": {
+		"url": "https://github.com/krishnaarga/printr/issues"
+	},
+    "keywords": [
+		"WordPress",
+		"Elementor",
+		"Elementor Widgets",
+		"Widgets",
+		"Elementor Controls",
+		"Controls",
+		"Page Builder"
+	],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
