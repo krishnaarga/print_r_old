@@ -22,5 +22,20 @@
       "dd(${1:});"
     ],
     "description": "dd function for laravel"
+  },
+  "Doc Comment for Class":{
+    "prefix": "!dcc",
+    "body": [
+      "/**",
+      " * ${1:ClassName}",
+      " * ",
+      " * @package ${1:ClassName}",
+      " * @version 1.0.0",
+      " * @author Krishna Kanhaiya <${2:krishna.kanhaiya@livguard.com}>",
+      " * @access public${3:\n * @property ${4:PropertyType} $${5:$property_name}}${6:\n * @method ${7:__construct}()}",
+      " * ",
+      " */"
+    ],
+    "description": "Add Doc Comment for Class"
   }
 }
